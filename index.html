@@ -1,1 +1,480 @@
-Hello World
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servet-i Fünun Dönemi Sanatçıları</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin-left: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    footer span {
+      font-weight: bold;
+    }
+
+    /* Başlık stilleri */
+    h2 {
+      color: #333; /* Başlık yazı rengi */
+    }
+
+    /* Sanatçı bölümü stilleri */
+    div {
+      background-color: #f2f2f2; /* Arka plan rengi */
+      padding: 20px; /* İçerik etrafındaki boşluk */
+      margin-bottom: 20px; /* Her bölüm arasındaki boşluk */
+      border-radius: 5px; /* Köşeleri yuvarlatma */
+    }
+
+    /* Sanatçı bölümü başlık stilleri */
+    div h2 {
+      font-size: 24px; /* Başlık yazı boyutu */
+    }
+
+    /* Sanatçı bölümü metin stilleri */
+    div p {
+      font-size: 16px; /* Metin boyutu */
+      line-height: 1.5; /* Satır yüksekliği */
+    }
+
+    /* Menü stilleri */
+    nav ul {
+      list-style-type: none; /* Liste işaretlerini kaldır */
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+    .author {
+      flex-basis: 45%;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+    }
+    .author img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Servet-i Fünun Dönemi Sanatçıları</h1>
+      <h2>Edebiyatımıza Damgasını Vuran Önde Gelen İsimler</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#sanatcilar">Sanatçılar</a></li>
+        <li><a href="#donemin_ozellikleri">Dönemin Özellikleri</a></li>
+        <li><a href="#kaynaklar">Kaynaklar</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="donemin_ozellikleri">
+        <h2>Dönemin Özellikleri</h2>
+        Servet-i Fünûn edebiyatı veya topluluğun kendini anarken kullandığı adıyla Edebiyat-ı Cedîde, II. Abdülhamid döneminde, Servet-i Fünûn adlı derginin çevresinde toplanan sanatçıların Batı etkisinde geliştirdikleri bir edebiyat hareketidir.
+
+Servet-i Fünûn, Türk edebiyatında 1860’tan beri devam eden Doğu-Batı mücadelesinin kesin sonucunu –Batı edebiyatının lehine olarak– tayin eden sonuncu safhasıdır. Pek yoğun ve pek dinamik çalışmalarla geçen bu sıcak safhanın sonunda Türk edebiyatı, gerek zihniyet, gerek temalar ve gerekse teknik bakımlardan tamamıyla Avrupaî bir mahiyet kazanabilmiştir.[1]
+
+1895 sonlarında Malumat dergisinin başyazarı Mehmet Tahir Efendi ile Recaizade Mahmud Ekrem arasında kafiye konusunda çıkan bir tartışma, Malumat gazetesinin Recaizade'ye ait öyküsünü izinsiz yayımlamasıyla büyür. Recaizade, büyüyen bu tartışmalar karşısında öğrencisi Ahmet İhsan'ın çıkardığı Servet-i Fünûn dergisini araç olarak kullanmaya karar verip Tevfik Fikret'i söz konusu derginin yazı işleri müdürlüğüne getirir. Bu atamayla beraber Servet-i Fünûn dergisi bir edebiyat dergisi kimliğine bürünür ve aktif olduğu 5 yıl içerisinde Türk edebiyatı, zamanın başat akımları olan sembolizm ve parnasizm etkisinde yeni bir üsluba bürünür.[2]
+
+Dergi, 16 Ekim 1901 yılında Hüseyin Cahit Yalçın'ın Fransızcadan çevirdiği "Edebiyat ve Hukuk" başlıklı, Fransa'nın 1789 rejimini değerlendiren makalesi, dönemin sansür heyeti tarafından sakıncalı bulundu dergiye 6 haftalık zorunlu tatil verildi. Kapatılma, Servet-i Fünûn şairleri arasında halihazırda mevcut olan gerginliği tırmandırdı ve edebi çevre tamamen dergiden uzaklaştı.
+
+Dergi, ceza bitiminde Ahmet İhsan'ın imtiyazı altında tekrar çıkmaya başlasa da edebi kimliğini tamamen yitirmiş ve bir bilim dergisi halini almıştır.
+      </section>
+    </main>
+
+    <div class="container">
+      <div class="author" id="tevfik_fikret">
+        <h2>Tevfik Fikret (1857-1915)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/91/Tevfik_Fikret.jpg"
+          alt="Tevfik Fikret"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          24 Aralık 1867'de İstanbul'da doğdu. Asıl adı Mehmed Tevfik'tir.
+          Babası Hüseyin Efendi, Çankırı'nın Bayramören ilçesine bağlı Dalkoz
+          köyünden ayrılıp İstanbul'a yerleşmiş Ahmet Ağa'nın oğlu idi. Henüz
+          çocukken annesini kaybetmek, onu hayatı boyunca etkiledi. 19 yıl
+          sürgünde kalan babası da sürgünden hiç dönemedi ve Antep'te öldü.
+          Aksaray'daki Mahmudiye Valide Rüştiyesinde öğrenimine başlayan Tevfik
+          Fikret, çok dindar bir ortamda yetişmekteydi. Galatasaray
+          Sultanisi'nde eğitim gördü. Bu okulda aldığı eğitim ve tanıştığı
+          isimler onun edebi kişiliğinin gelişmesinde önemli rol oynadı.
+          Galatasaray'dan sonra Mülkiye Mektebi'ne devam etti. Fakat siyasi
+          görüşleri nedeniyle okuldan uzaklaştırıldı. Gazetecilik, öğretmenlik
+          ve mütercimlik gibi farklı alanlarda çalıştı. 1915 yılında İstanbul'da
+          vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Gülistan-ı Edebiyat (1896)</li>
+          <li>Rüzgarlar (1907)</li>
+          <li>Bahar (1912)</li>
+          <li>Hasret (1922)</li>
+          <li>Sesler (1924)</li>
+          <li>Yıldızlar (1935)</li>
+          <li>Güneş (1942)</li>
+          <li>Son Şiirler (1956)</li>
+          <li>Hikayeler (1913)</li>
+          <li>Bir Yolculuk (1914)</li>
+          <li>Köy Hikayeleri (1922)</li>
+        </ul>
+      </div>
+
+      <div class="author" id="halit_ziya_usakligil">
+        <h2>Halit Ziya Uşaklıgil (1866-1945)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/46/Halid_ziya_cropped.jpg"
+          alt="Halit Ziya Uşaklıgil"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          1866 yılında İstanbul'da doğdu. Fatih Askeri Rüştiyesi'nde ve
+          Darülfünun Edebiyat Fakültesi'nde eğitim gördü. Çeşitli devlet
+          dairelerinde görevlerde bulundu. 1909-1912 yılları arasında Mabeyn-i
+          İhumayun Başkatibi olarak görev yaptı. 1914 yılında Siyasi Suçlular
+          Kanunu gereği Balıkesir'e sürgün edildi. Sürgünden döndükten sonra
+          Milli Meclis'te milletvekili olarak görev yaptı. 1945 yılında
+          İstanbul'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Aşk-ı Memnu (1900)</li>
+          <li>Mai ve Siyah (1911)</li>
+          <li>Halide Edib Hanım'ın Mektupları (1912)</li>
+          <li>Çile (1913)</li>
+          <li>Sefiller (1918)</li>
+          <li>Kıralın Hayatı (1922)</li>
+          <li>Şirvan (1923)</li>
+          <li>Ahmet Cemil (1931)</li>
+          <li>Saray ve Köşk (1935)</li>
+          <li>Kürk Mantolu Madonna (1943)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="author" id="cenap_sahabettin">
+        <h2>Cenap Şahabettin (1870-1939)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Cenab_%C5%9Fahabettin.jpg"
+          alt="Cenap Şahabettin"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          21 Mart 1870 yılında Manastır'da doğdu. Askeri Tıbbiye İdadisi'ni ve
+          Tıp Fakültesi'ni bitirdikten sonra hekim oldu. Paris'te cilt
+          hastalıkları üzerine ihtisas yaptı. Döndükten sonra hekimlik ve
+          öğretmenlik yaptı. 1934 yılında İstanbul'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Gonca (1901)</li>
+          <li>Burçak (1908)</li>
+          <li>Yeni Turan (1913)</li>
+          <li>Sırça Köşk (1924)</li>
+          <li>Sonbahar (1931)</li>
+          <li>Ölüm ve Hayât (1933)</li>
+        </ul>
+      </div>
+      <div class="author" id="mehmet_rauf">
+        <h2>Mehmet Rauf (1875-1931)</h2>
+        <img
+          src="https://www.iskultur.com.tr/webp/2019/09/mehmet-rauf.jpg"
+          alt="Mehmet Rauf"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          12 Ağustos 1875'te İstanbul'da doğdu. İlk öğrenimini Defterdar Mahalle
+          Mektebi'nde, ardından Eyüp Rüşdiyesi'nde tamamladı. Bahriye
+          Mektebi'nde eğitim gördü ve 1894 yılında subay olarak mezun oldu.
+          Donanmada çeşitli görevlerde bulunduktan sonra 1908 yılında emekli
+          oldu. Gazetecilik, öğretmenlik ve mütercimlik gibi farklı alanlarda
+          çalıştı. 1931 yılında İstanbul'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Eylül (1909)</li>
+          <li>Gönül (1912)</li>
+          <li>Yeni Mabet (1918)</li>
+          <li>Obur (1927)</li>
+          <li>Celse-i Müdafaa (1909)</li>
+          <li>Bir Geceyarısı Hikayesi (1910)</li>
+          <li>Hikayeler (1920)</li>
+          <li>Günahkar (1922)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="author" id="huseyin_cahit_yalcin">
+        <h2>Hüseyin Cahit Yalçın (1875-1957)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/04/H%C3%BCseyin_Cahit_Bey_Yal%C3%A7%C4%B1n.jpg"
+          alt="Hüseyin Cahit Yalçın"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          7 Aralık 1875'te Balıkesir'de doğdu. İlköğrenimini İstanbul'da,
+          ortaöğrenimini Serez'de Askeri Rüştiye'de tamamladı. 1893'te girdiği
+          Mülkiye Mektebi'ni 1896'da bitirdikten sonra 1901 yılına kadar Maarif
+          Nezâreti'nin çeşitli kalemlerinde çalıştı. 1908'de Osmanlı
+          parlamentosuna seçildi ve tarihimizdeki ilk gazeteci milletvekili
+          oldu. II. Meşrutiyet ve Cumhuriyet dönemlerinde çeşitli siyasi
+          partilerde görev aldı. Tanin, Yeni Gazete, İkdam, Sabah ve Ulus gibi
+          birçok önemli gazetede başyazarlık ve köşe yazarlığı yaptı. 1957
+          yılında İstanbul'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Kırık Hayat (1924)</li>
+          <li>Ahmet Cemil (1931)</li>
+          <li>İntibah (1934)</li>
+          <li>Beyoğlu'nda Bir Gece (1943)</li>
+          <li>Hikayeler (1924)</li>
+          <li>Selekler (1935)</li>
+          <li>Gölgeler (1940)</li>
+        </ul>
+      </div>
+      <div class="author" id="ahmet_hikmet_muftuoglu">
+        <h2>Ahmet Hikmet Müftüoğlu (1881-1952)</h2>
+        <img
+          src="https://r2.1k-cdn.com/sig/size:256/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fyazarlar%2F56586_s10SR_1652327796.jpg"
+          alt="Ahmet Hikmet Müftüoğlu"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          3 Haziran 1870'te İstanbul'da doğdu. İlk öğrenimini Süleymaniye
+          Mahalle Mektebi'nde, ortaöğrenimini Dökmeciler Taş Mektep'te
+          tamamladı. Galatasaray Sultanisi'nde eğitim gördü ve bu okulda Tevfik
+          Fikret ile tanıştı. 1888'de eğitimini tamamladıktan sonra Hariciye
+          Nezaretinde çalışmaya başladı; bir yandan da Galatasaray Sultanisi'nde
+          öğretmenlik yaptı. Pire (Yunanistan) ve Poti (Kafkasya)
+          şehbenderliğine vekalet etme göreviyle bir süre İstanbul'dan uzakta
+          bulundu; 1896'da İstanbul'a geri döndü ve eski işine devam etti. II.
+          Meşrutiyet'in ardından Türkçülük cereyanının en hararetli
+          taraftarlarından biri olmuştur. 1908'de Hariciye'deki görevinden
+          alındı. Ticaret ve Ziraat Nezareti Umûr-ı Ticariye Umum Müdürlüğüne
+          getirildi. 1912'de Atina'da yapılan XVI. Olimpiyat Oyunları'nda Türk
+          delegasyonunun başkanlığını yaptı. I. Dünya Savaşı'ndan sonra
+          Anadolu'ya geçerek milli mücadeleye katıldı. 19 Mayis 1927'de
+          İstanbul'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Siyâhatnâme (1896)</li>
+          <li>Rüya (1901)</li>
+          <li>Mehtap (1903)</li>
+          <li>Bülbül (1907)</li>
+          <li>Siyâhatnâme (1912)</li>
+          <li>Yeni Şiirler (1927)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="author" id="suleyman_nazif">
+        <h2>Süleyman Nazif (1880-1938)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/af/S%C3%BCleyman_Nazif-1.2.1.jpg"
+          alt="Süleyman Nazif"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          29 Ocak 1869'da Diyarbakır'da doğdu. İlk öğrenimini Diyarbakır'da
+          tamamladı. İstanbul'a gelerek Mülkiye Mektebi'nde (Siyasal Bilgiler
+          Fakültesi) eğitim gördü. 1891'de Mülkiye'yi bitirdikten sonra çeşitli
+          devlet görevlerinde bulundu. Basra, Kastamonu, Trabzon, Musul ve
+          Bağdat valiliklerinde görev yaptı. I. Dünya Savaşı'ndan sonra
+          Anadolu'ya geçerek Milli Mücadele'ye katıldı. Kurtuluş Savaşı'ndan
+          sonra Ankara'ya yerleşti ve burada çeşitli bürokratik görevlerde
+          bulundu. 4 Ocak 1927'de İstanbul'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <ul>
+            <li>Gizli Figanlar (1906)</li>
+            <li>Firâk-ı Irak (1918)</li>
+            <li>Malta Geceleri (1924)</li>
+            <li>Çal Çoban Çal (1923)</li>
+            <li>Âbide-i Şühedâ (1925)</li>
+            <li>Külliyât-ı Ziya Paşa (1924)</li>
+          </ul>
+        </ul>
+      </div>
+      <div class="author" id="ali_ekrem_bolayir">
+        <h2>Ali Ekrem Bolayır (1867-1939)</h2>
+        <img
+          src="https://www.turkedebiyatcilar.net/wp-content/uploads/2018/08/20210126_164538.jpg"
+          alt="Ali Ekrem Bolayır"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          1867 yılında İstanbul'da doğdu. İlk öğrenimini Taş Mektep'te,
+          ortaöğrenimini Galatasaray Sultanisi'nde tamamladı. Mülkiye
+          Mektebi'nde (Siyasal Bilgiler Fakültesi) eğitim gördü. 1888'de
+          Mülkiye'yi bitirdikten sonra çeşitli devlet görevlerinde bulundu.
+          Basra, Selanik ve Halep valiliklerinde görev yaptı. I. Dünya
+          Savaşı'ndan sonra Anadolu'ya geçerek Milli Mücadele'ye katıldı.
+          Kurtuluş Savaşı'ndan sonra Ankara'ya yerleşti ve burada çeşitli
+          bürokratik görevlerde bulundu. 1939 yılında Ankara'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Çiçekler (1898)</li>
+          <li>Halbuki (1900)</li>
+          <li>Kırık Hayat (1904)</li>
+          <li>Yeni Turan (1913)</li>
+          <li>Milli Edebiyat (1914)</li>
+          <li>Peygamber (1920)</li>
+          <li>Kahramanlık (1922)</li>
+          <li>Hürriyet ve İstiklal (1923)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="author" id="faik_ali_ozansoy">
+        <h2>Faik Ali Ozansoy (1876-1950)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Faik_ozansoy1.jpg"
+          alt="Faik Ali Ozansoy"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          25 Şubat 1878'de İstanbul'da doğdu. İlk öğrenimini Taş Mektep'te,
+          ortaöğrenimini Galatasaray Sultanisi'nde tamamladı. Mülkiye
+          Mektebi'nde (Siyasal Bilgiler Fakültesi) eğitim gördü. 1899'da
+          Mülkiye'yi bitirdikten sonra çeşitli devlet görevlerinde bulundu.
+          Basra, Halep ve Selanik valiliklerinde görev yaptı. I. Dünya
+          Savaşı'ndan sonra Anadolu'ya geçerek Milli Mücadele'ye katıldı.
+          Kurtuluş Savaşı'ndan sonra Ankara'ya yerleşti ve burada çeşitli
+          bürokratik görevlerde bulundu. 1950 yılında Ankara'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Hikayeler (1920)</li>
+          <li>Semaver (1922)</li>
+          <li>Güldeste (1923)</li>
+        </ul>
+      </div>
+      <div class="author" id="ismail_safa">
+        <h2>İsmail Safa (1898-1981)</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/d/d4/%C4%B0smail_Safa.jpg"
+          alt="İsmail Safa"
+          width="300"
+          height="auto"
+        />
+        <h3>Hayatı:</h3>
+        <p>
+          23 Ağustos 1898'de İstanbul'da doğdu. İlk öğrenimini Taş Mektep'te,
+          ortaöğrenimini Galatasaray Sultanisi'nde tamamladı. Mülkiye
+          Mektebi'nde (Siyasal Bilgiler Fakültesi) eğitim gördü. 1917'de
+          Mülkiye'yi bitirdikten sonra çeşitli devlet görevlerinde bulundu.
+          Basra, Halep ve Konya valiliklerinde görev yaptı. I. Dünya Savaşı'ndan
+          sonra Anadolu'ya geçerek Milli Mücadele'ye katıldı. Kurtuluş
+          Savaşı'ndan sonra Ankara'ya yerleşti ve burada çeşitli bürokratik
+          görevlerde bulundu. 1950 yılında Ankara'da vefat etti.
+        </p>
+        <h3>Eserleri:</h3>
+        <ul>
+          <li>Sünûhât (1889)</li>
+          <li>Huz Mâ Safâ (1891)</li>
+          <li>Mağdûre-i Sevdâ (1891)</li>
+          <li>Mevlid-i Peder-i Ziyâret (1895)</li>
+          <li>Mensiyyât (1896)</li>
+          <li>Hissiyât (Ölümünden sonra, 1912)</li>
+          <li>İntâk-ı Hakk'ın Tahmisi (Ölümünden sonra, 1912)</li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+        <section id="kaynaklar">
+          <h2>Kaynaklar</h2>
+          <ul>
+            <li>wikipedia</li>
+          </ul>
+        </section>
+      </main>
+
+    <footer>
+      <p>
+        &copy; 2024 Servet-i Fünun Dönemi Sanatçıları Web Sitesi by
+        <span>Ahmet Ata Güngör</span>
+      </p>
+    </footer>
+  </body>
+</html>
